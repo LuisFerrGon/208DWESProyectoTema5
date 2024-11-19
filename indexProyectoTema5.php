@@ -23,9 +23,9 @@
                 <tbody>
                     <tr>
                         <th span="row" class="num">00</th>
-                        <td>Conexión a la base de datos con la cuenta usuario y tratamiento de errores.</td>
+                        <td>Mostrar el contenido de las variables superglobales y phpinfo().</td>
                         <td class="eje">
-                            <!--<a href="codigoPHP/ejercicio00PDO.php">Ejecutar</a>-->
+                            <a href="codigoPHP/ejercicio00.php">Ejecutar</a>
                         </td>
                         <td class="mos">
                             <!--<a href="mostrarcodigo/muestraEjercicio00PDO.php">Mostrar</a>-->
