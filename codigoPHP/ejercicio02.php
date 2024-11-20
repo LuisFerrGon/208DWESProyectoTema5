@@ -8,16 +8,34 @@
     </head>
     <body>
         <header>
-            <h1>Ejercicio 01</h1>
+            <h1>Ejercicio 02</h1>
         </header>
         <main>
             <?php
                 /**
-                 * @author Victor García Gordón
+                 * @author Luis Ferreras González
                  * @version 20/11/2024
                  */
+                function verificarUsuarioContrasena($usu, $pass){
+                    $existe=false;
+                    require_once '../core/confDBPDO.php';
+                    try{
+                        $conn = new PDO(SERVIDOR, USUARIO, CONTRASENA);
+                        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                        $query=$conn->prepare("SELECT (T01_CodUsuario, T01_Password) FROM T01_Usuario WHERE T01_CodUsuario=:usuario AND T01_Password=SHA2(CONCAT(:usuario, :contrasena), 256);");
+                        $query->bindParam(':usuario', $usu);
+                        $query->bindParam(':contrasena', $pass);
+                        $query->execute();
+                        $existe=($query!=null);
+                    }catch(PDOException $e) {
+                        echo "Conexión fallida: " . $e->getMessage();
+                    }finally {
+                        unset($conn);
+                    }
+                    return $existe;
+                };
                 //Si el usuario no es 'admin' o la contraseña no es 'paso', pedimos las credenciales.
-                if (!isset($_SERVER['PHP_AUTH_USER']) && !isset($_SERVER['PHP_AUTH_PW']) || $_SERVER['PHP_AUTH_USER'] != 'administrador' || $_SERVER['PHP_AUTH_PW'] != '1234') {
+                if ((!isset($_SERVER['PHP_AUTH_USER']) && !isset($_SERVER['PHP_AUTH_PW'])) || !verificarUsuarioContrasena($_SERVER['PHP_AUTH_USER'], $_SERVER['PHP_AUTH_PW'])){
                     // Si no hay autenticación o las credenciales no son correctas
                     header('WWW-Authenticate: Basic Realm="Mi dominio"');
                     // Código por sino esta autenticado
