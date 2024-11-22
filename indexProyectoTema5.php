@@ -48,49 +48,9 @@
                             <a href="codigoPHP/ejercicio02.php">Ejecutar</a>
                         </td>
                         <td class="mos">
-                            <!--<a href="mostrarcodigo/muestraEjercicio02.php">Mostrar</a>-->
+                            <a href="mostrarcodigo/muestraEjercicio02.php">Mostrar</a>
                         </td>
                     </tr><!--02-->
-<!--                    <tr>
-                        <th span="row" class="num">03</th>
-                        <td>Desarrollo de una aplicación con control de acceso e identificación del usuario basado en un formulario con un botón de “Entrar” y en el uso de una tabla “Usuario” de la base de datos (PDO). En el caso de que tecleemos un usuario y password correctos se abrirá otra página donde tendremos un botón de “Salir” que nos devolverá al Login.php.</td>
-                        <td class="eje">
-                            <a href="codigoPHP/ejercicio03.php">Ejecutar</a>
-                        </td>
-                        <td class="mos">
-                            <a href="mostrarcodigo/muestraEjercicio03.php">Mostrar</a>
-                        </td>
-                    </tr>03
-                    <tr>
-                        <th span="row" class="num">04</th>
-                        <td>Implantación uso y disfrute de Xdebug en nuestro entorno de desarrollo.</td>
-                        <td class="eje">
-                            <a href="codigoPHP/ejercicio04.php">Ejecutar</a>
-                        </td>
-                        <td class="mos">
-                            <a href="mostrarcodigo/muestraEjercicio04.php">Mostrar</a>
-                        </td>
-                    </tr>04
-                    <tr>
-                        <th span="row" class="num">05</th>
-                        <td>Incorporar el control de acceso, identificación de usuario, cookies y sesiones a nuestro Mantenimiento de Departamentos.</td>
-                        <td class="eje">
-                            <a href="codigoPHP/ejercicio05.php">Ejecutar</a>
-                        </td>
-                        <td class="mos">
-                            <a href="mostrarcodigo/muestraEjercicio05.php">Mostrar</a>
-                        </td>
-                    </tr>05
-                    <tr>
-                        <th span="row" class="num">06</th>
-                        <td>Ampliar la funcionalidad de la aplicación: MtoDepartamentos y MtoUsuarios.</td>
-                        <td class="eje">
-                            <a href="codigoPHP/ejercicio06.php">Ejecutar</a>
-                        </td>
-                        <td class="mos">
-                            <a href="mostrarcodigo/muestraEjercicio06.php">Mostrar</a>
-                        </td>
-                    </tr>06-->
                 </tbody>
             </table>
             <div style='height: 30px'></div>

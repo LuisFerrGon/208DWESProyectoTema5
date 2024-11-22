@@ -8,11 +8,11 @@
     </head>
     <body>
         <header>
-            <h1>Ejercicio 01</h1>
+            <h1>Ejercicio 02</h1>
         </header>
         <main>
             <?php
-                show_source("../codigoPHP/ejercicio01.php");
+                show_source("../codigoPHP/ejercicio02.php");
                 echo "<div style='height: 30px'></div>";
             ?>
         </main>
