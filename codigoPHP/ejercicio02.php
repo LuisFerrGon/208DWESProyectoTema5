@@ -35,7 +35,7 @@
                     }
                     return $existe;
                 };
-                //Si el usuario no es 'admin' o la contraseña no es 'paso', pedimos las credenciales.
+
                 if ((!isset($_SERVER['PHP_AUTH_USER']) && !isset($_SERVER['PHP_AUTH_PW'])) || !verificarUsuarioContrasena($_SERVER['PHP_AUTH_USER'], $_SERVER['PHP_AUTH_PW'])){
                     // Si no hay autenticación o las credenciales no son correctas
                     header('WWW-Authenticate: Basic Realm="Mi dominio"');
