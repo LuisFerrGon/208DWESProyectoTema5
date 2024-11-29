@@ -3,21 +3,19 @@
  * Created: 19 nov 2024
  */
 INSERT INTO DB208DWESProyectoTema5.T01_Usuario
-    (T01_CodUsuario, T01_Password, T01_Perfil)
+    (T01_CodUsuario, T01_Password, T01_DescUsuario, T01_Perfil)
 VALUES
-    ('admin', SHA2(CONCAT('admin', 'paso'),256), 'administrador')
+    ('admin', SHA2('adminpaso',256), 'administrador', 'administrador')
 ;
 INSERT INTO DB208DWESProyectoTema5.T01_Usuario
-    (T01_CodUsuario, T01_Password)
+    (T01_CodUsuario, T01_Password, T01_DescUsuario)
 VALUES
-    ('victor', SHA2(CONCAT('victor', 'paso'),256)),
-    ('alex', SHA2(CONCAT('alex', 'paso'),256)),
-    ('jesus', SHA2(CONCAT('jesus', 'paso'),256)),
-    ('heraclio', SHA2(CONCAT('heraclio', 'paso'),256)),
-    ('amor', SHA2(CONCAT('amor', 'paso'),256)),
-    ('ivan', SHA2(CONCAT('ivan', 'paso'),256)),
-    ('antonio', SHA2(CONCAT('antonio', 'paso'),256)),
-    ('gisela', SHA2(CONCAT('gisela', 'paso'),256))
+    ('victor', SHA2('victorpaso',256), 'Víctor García Gordón'),
+    ('alex', SHA2('alexpaso',256), 'Alex Asensio Sánchez'),
+    ('luis', SHA2('luispaso', 256), 'Luis Ferreras González'),
+    ('jesus', SHA2('jesuspaso',256), 'Jesus Ferreras González'),
+    ('heraclio', SHA2('heracliopaso',256), 'Heraclio Borbujo Moran'),
+    ('amor', SHA2('amorpaso',256), 'Amor Rodriguez Navarro')
 ;
 INSERT INTO DB208DWESProyectoTema5.T02_Departamento
     (T02_CodDepartamento, T02_DescDepartamento, T02_VolumenDeNegocio)

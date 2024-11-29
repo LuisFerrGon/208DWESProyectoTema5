@@ -9,6 +9,7 @@ GRANT ALL PRIVILEGES ON DB208DWESProyectoTema5.* TO 'user208DWESProyectoTema5'@'
 CREATE TABLE IF NOT EXISTS DB208DWESProyectoTema5.T01_Usuario(
     T01_CodUsuario CHAR(8) PRIMARY KEY,
     T01_Password VARCHAR(64),
+    T01_DescUsuario VARCHAR(255),
     T01_NumConexiones INT DEFAULT 0,
     T01_FechaHoraUltimaConexion datetime DEFAULT CURRENT_TIMESTAMP(),
     T01_Perfil ENUM('usuario', 'administrador') DEFAULT 'usuario',

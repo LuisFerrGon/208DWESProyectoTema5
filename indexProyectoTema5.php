@@ -23,74 +23,34 @@
                 <tbody>
                     <tr>
                         <th span="row" class="num">00</th>
-                        <td>Conexión a la base de datos con la cuenta usuario y tratamiento de errores.</td>
+                        <td>Mostrar el contenido de las variables superglobales y phpinfo().</td>
                         <td class="eje">
-                            <!--<a href="codigoPHP/ejercicio00PDO.php">Ejecutar</a>-->
+                            <a href="codigoPHP/ejercicio00.php">Ejecutar</a>
                         </td>
                         <td class="mos">
-                            <!--<a href="mostrarcodigo/muestraEjercicio00PDO.php">Mostrar</a>-->
+                            <a href="mostrarcodigo/muestraEjercicio00.php">Mostrar</a>
                         </td>
                     </tr><!--00-->
                     <tr>
                         <th span="row" class="num">01</th>
                         <td>Desarrollo de un control de acceso con identificación del usuario basado en la función header().</td>
                         <td class="eje">
-                            <!--<a href="codigoPHP/ejercicio01PDO.php">Ejecutar</a>-->
+                            <a href="codigoPHP/ejercicio01.php">Ejecutar</a>
                         </td>
                         <td class="mos">
-                            <!--<a href="mostrarcodigo/muestraEjercicio01PDO.php">Mostrar</a>-->
+                            <a href="mostrarcodigo/muestraEjercicio01.php">Mostrar</a>
                         </td>
                     </tr><!--01-->
                     <tr>
                         <th span="row" class="num">02</th>
                         <td>Desarrollo de un control de acceso con identificación del usuario basado en la función header() y en el uso de una tabla “Usuario” de la base de datos.</td>
                         <td class="eje">
-                            <!--<a href="codigoPHP/ejercicio02PDO.php">Ejecutar</a>-->
+                            <a href="codigoPHP/ejercicio02.php">Ejecutar</a>
                         </td>
                         <td class="mos">
-                            <!--<a href="mostrarcodigo/muestraEjercicio02PDO.php">Mostrar</a>-->
+                            <a href="mostrarcodigo/muestraEjercicio02.php">Mostrar</a>
                         </td>
                     </tr><!--02-->
-                    <tr>
-                        <th span="row" class="num">03</th>
-                        <td>Desarrollo de una aplicación con control de acceso e identificación del usuario basado en un formulario con un botón de “Entrar” y en el uso de una tabla “Usuario” de la base de datos (PDO). En el caso de que tecleemos un usuario y password correctos se abrirá otra página donde tendremos un botón de “Salir” que nos devolverá al Login.php.</td>
-                        <td class="eje">
-                            <!--<a href="codigoPHP/ejercicio03PDO.php">Ejecutar</a>-->
-                        </td>
-                        <td class="mos">
-                            <!--<a href="mostrarcodigo/muestraEjercicio03PDO.php">Mostrar</a>-->
-                        </td>
-                    </tr><!--03-->
-                    <tr>
-                        <th span="row" class="num">04</th>
-                        <td>Implantación uso y disfrute de Xdebug en nuestro entorno de desarrollo.</td>
-                        <td class="eje">
-                            <!--<a href="codigoPHP/ejercicio04PDO.php">Ejecutar</a>-->
-                        </td>
-                        <td class="mos">
-                            <!--<a href="mostrarcodigo/muestraEjercicio04PDO.php">Mostrar</a>-->
-                        </td>
-                    </tr><!--04-->
-                    <tr>
-                        <th span="row" class="num">05</th>
-                        <td>Incorporar el control de acceso, identificación de usuario, cookies y sesiones a nuestro Mantenimiento de Departamentos.</td>
-                        <td class="eje">
-                            <!--<a href="codigoPHP/ejercicio05PDO.php">Ejecutar</a>-->
-                        </td>
-                        <td class="mos">
-                            <!--<a href="mostrarcodigo/muestraEjercicio05PDO.php">Mostrar</a>-->
-                        </td>
-                    </tr><!--05-->
-                    <tr>
-                        <th span="row" class="num">06</th>
-                        <td>Ampliar la funcionalidad de la aplicación: MtoDepartamentos y MtoUsuarios.</td>
-                        <td class="eje">
-                            <!--<a href="codigoPHP/ejercicio06PDO.php">Ejecutar</a>-->
-                        </td>
-                        <td class="mos">
-                            <!--<a href="mostrarcodigo/muestraEjercicio06PDO.php">Mostrar</a>-->
-                        </td>
-                    </tr><!--06-->
                 </tbody>
             </table>
             <div style='height: 30px'></div>
